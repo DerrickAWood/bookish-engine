@@ -2,7 +2,11 @@
 
 function largerNum(num1, num2) {
     // you code here
-
+if(num1 < num2){
+    return num2
+}else{
+    return num1
+}
 }
 
 // 2. Given two numbers, amount correct and amount possible of a test, return the corresponding letter grade.
@@ -14,8 +18,16 @@ function largerNum(num1, num2) {
 // output: "F"
 
 function testGrader(score, possible) {
-
-}
+    if((score / possible) >= 0.9){
+        return "A"}
+            if((score / possible) >= 0.8){
+                return "B"}
+                    if((score / possible) >= 0.7){
+                        return "C"}
+                         if((score / possible) >= 0.6){
+                            return "D"} 
+                                if((score / possible) >= 0.5){
+                                    return "F"}}
 
 
 // --------------------------------------------
@@ -30,14 +42,32 @@ function testGrader(score, possible) {
 
 function timeOfDayGreeting(hour) {
     // you code below
-
+    if((hour <= 11) && (hour >= 5)){
+        return "good morning"
+    } else if((hour <= 17) && (hour >= 12)){
+        return "good afternoon"
+    } else if((hour <= 21) && (hour >= 18)){
+        return "good evening"
+    } else if((hour <= 24) && (hour >= 22)){
+        return "good night"
+    } else if((hour <= 4) && (hour >= 1)){
+        return "good night"
+    }
 }
 
 //4. Write a function that will take in a number and return 'fever' if it indicates a fever (over 98.6) and additionally if the person should go to the hospital (at or above 103) 'fever go to hospital' (hint: try this with string concatenation), if it is under return 'no fever'
 function isFever(temp) {
-
-}
-
+    if(temp >= 103){
+        return "fever go to hospital"
+    }
+        if(temp > 98.6){
+            return "fever"
+        }
+            if(temp <= 98.6){
+                return "no fever"
+            }
+        }
+  
 //5. Write a function that takes in a car object, if it is not moving then return true
 let myCar = {
     make: "Ford",
