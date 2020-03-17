@@ -24,7 +24,7 @@ function isEven(num) {
   }
 }
 
-// TODO
+
 // Given 2 numbers, generate a random number within that range. 
 // Make it inclusive so that the starting and ending numbers are part 
 // of the range.HINT ** Utilize Javascript's Math Class (To the Google!)
