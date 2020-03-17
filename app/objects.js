@@ -38,7 +38,7 @@ TODO
 function renameCat() {
   // your code inside here
   cat[0] = "kevin"
-  return cat.name
+  return cat[0]
 }
 
 // Create a function that uses dot or bracket notation to create a property 

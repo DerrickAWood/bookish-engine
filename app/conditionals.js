@@ -78,10 +78,10 @@ let myCar = {
 TODO
 
 function isStopped(car){
-    if(car !== myCar.moving){
-        return false
-    } else if(car == myCar.moving){
+    if(car.moving == false){
         return true
+    } else if(car.moving != false){
+        return false
     }
 }
     
@@ -94,5 +94,9 @@ let dish = {
 }
 
 function washDish(dish) {
-
+    if((dish.yourDish == true) && (dish.isDirty == true)){
+        return true
+    } else{
+        return false
+    }
 }

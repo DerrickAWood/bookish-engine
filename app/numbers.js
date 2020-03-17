@@ -33,3 +33,4 @@ function numberGenerator(num1, num2) {
   num1 = Math.floor(num1)
   return Math.floor(Math.random() * (num2 - num1)) + min
 }
+
