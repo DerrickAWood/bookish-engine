@@ -29,8 +29,8 @@ function isEven(num) {
 // Make it inclusive so that the starting and ending numbers are part 
 // of the range.HINT ** Utilize Javascript's Math Class (To the Google!)
 function numberGenerator(num1, num2) {
-  num2 = Math.ceil(num2)
-  num1 = Math.floor(num1)
-  return Math.floor(Math.random() * (num2 - num1)) + min
+  num1 = Math.ceil(num1)
+  num2 = Math.floor(num2)
+  return Math.floor(Math.random() * (num2 - num1)) + num1
 }
 

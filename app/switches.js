@@ -53,7 +53,7 @@ function daysPosition(day, offset) {
 
  function golfScore(score, par) {
     switch(score, par){
-        
+
     }
  }
  
@@ -79,5 +79,5 @@ function daysPosition(day, offset) {
 let count = 0
 
 function cardCounter(card) {
-
+    
 }

@@ -37,8 +37,8 @@ let cat = {
 TODO
 function renameCat() {
   // your code inside here
-  cat[0] = "kevin"
-  return cat[0]
+  cat[name] = "kevin"
+  return cat.name
 }
 
 // Create a function that uses dot or bracket notation to create a property 
@@ -55,7 +55,7 @@ function colorTheCat() {
 
 TODO
 
-delete cat.whiskers
+
 
 
 // Write a function that uses dot AND bracket notation to access and return the 
