@@ -6,8 +6,33 @@
     // input: 'Sunday', true
     // output: 7
 
+    TODO
 function daysPosition(day, offset) {
-
+    switch(day, offset){
+        case 1: 
+            return "Sunday";
+            break;
+        case 2:
+            return "Monday";
+            break;
+        case 3:
+            return "Tuesday";
+            break;
+        case 4: 
+            return "Wednesday";
+            break;
+        case 5:
+            return "Thursday";
+            break;
+        case 6:
+            return "Friday";
+            break;
+         case 7:
+            return "Saterday";
+            break;
+        default:
+            return "That's not a day of the week"
+    }
 }
 
 

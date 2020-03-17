@@ -75,10 +75,16 @@ let myCar = {
     color: "Red",
     moving: false
 }
+TODO
 
-function isStopped(car) {
-
+function isStopped(car){
+    if(car !== myCar.moving){
+        return false
+    } else if(car == myCar.moving){
+        return true
+    }
 }
+    
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
 
